@@ -13,8 +13,8 @@ package ru.stepup.main;
 */
 
 
-import ru.stepup.departments.Department;
-import ru.stepup.employees.Employee;
+import ru.stepup.office.Department;
+import ru.stepup.office.Employee;
 
 public class Main {
     public static void main(String[] args) {
@@ -34,10 +34,10 @@ public class Main {
             System.out.println(e);
         }
 
-        System.out.println(d1.getHeadOffice());
+        System.out.println(d1);
 
         System.out.println(e1);
-//        System.out.println(e2);
-//        System.out.println(e3);
+        System.out.println(e2);
+        System.out.println(e3);
     }
 }
